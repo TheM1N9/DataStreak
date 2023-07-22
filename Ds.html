@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Upload Tracker</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Upload Tracker</h1>
+    <div class="upload-wrapper">
+      <div class="user">
+        <label for="user1Password">User 1 Password:</label>
+        <input type="password" id="user1Password" placeholder="Enter User 1 Password">
+        <button id="user1UploadBtn">User 1 Upload</button>
+        <label id="resp"></label>
+      </div>
+      <div class="user">
+        <label for="user2Password">User 2 Password:</label>
+        <input type="password" id="user2Password" placeholder="Enter User 2 Password">
+        <button id="user2UploadBtn">User 2 Upload</button>
+        <label id="resp"></label>
+      </div>
+    </div>
+  </div>
+  <div id="uploadStatus" class="upload-status">Streak Count: 0</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
